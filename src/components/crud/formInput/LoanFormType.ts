@@ -314,6 +314,6 @@ export const LoanFormType: FormField[] = [
     required: false,
     label: "Comments",
     isDisabled: true,
-    widthFull:true
+    widthFull: true
   },
 ];
