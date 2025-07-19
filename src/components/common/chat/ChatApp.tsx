@@ -59,7 +59,7 @@ export default function ChatApp() {
           <>
             <div className="p-4 border-b flex items-center bg-primary text-black">
               <div className="relative w-10 h-10 bg-white text-primary rounded-full flex items-center justify-center font-bold mr-4">
-                {selectedChat?.name.charAt(0)}
+                {selectedChat?.name?.charAt(0)}
                 {selectedChat?.online && (
                   <span className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full border border-gray-200"></span>
                 )}

@@ -16,6 +16,7 @@ const columns = [
   { key: "lastName", label: "Last Name", sortable: true },
   { key: "otpVerified", label: "Verified", sortable: true, status: true },
   { key: "status", label: "Status", sortable: true,isStatus:true },
+  { key: "leadStatus", label: "Lead Status", sortable: true, isStatus: true },
   { key: "dateOfBirth", label: "Date of Birth", sortable: true, isDate: true },
   { key: "mobile", label: "Mobile", sortable: true },
   { key: "email", label: "Email", sortable: true },

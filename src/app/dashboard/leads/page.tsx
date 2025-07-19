@@ -10,12 +10,13 @@ import { getAccessPoints } from "../../../hooks/general";
 import useFetch from "../../../hooks/useFetch";
 
 const columns = [
-  { key: "id", label: "ID" ,isIndex:true},
+  { key: "id", label: "ID", isIndex: true },
   { key: "title", label: "Title", sortable: true },
   { key: "firstName", label: "First Name", sortable: true },
   { key: "lastName", label: "Last Name", sortable: true },
   { key: "otpVerified", label: "Verified", sortable: true, status: true },
-  { key: "status", label: "Status", sortable: true,isStatus:true },
+  { key: "status", label: "Status", sortable: true, isStatus: true },
+  { key: "leadStatus", label: "Lead Status", sortable: true, isStatus: true },
   { key: "disapprovalReason", label: "Disapproval Reason", ifCondition: "Not Eligible" },
   { key: "dateOfBirth", label: "Date of Birth", sortable: true, isDate: true },
   { key: "mobile", label: "Mobile", sortable: true },
